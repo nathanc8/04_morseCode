@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <div id="title">
+      <h1>Morse / Latin traductor</h1>
+      <p>Please enter a morse or latin text to translate</p>
+   </div>
+   <div id="inputField">
+      <label for="textToTranslate">Text to translate</label>
+      <input id="textToTranslate">
+   </div>
+   <div id="actionButtons">
+      <button id="morseTrad" onclick="encode(latinToMorse)">Translate to Morse</button>
+      <button id="latinTrad" onclick="decode(morseToLatin)">Translate to latin</button>
+   </div>
+   <div id="translation">  
+      <p id="traduction"></p>
+   </div>
+   <script src = "script_final.js"></script>
+</body>
+</html>

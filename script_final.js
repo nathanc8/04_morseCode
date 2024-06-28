@@ -73,6 +73,7 @@ function getLatinCharacterList(text) {
 
 //étape 2 : traduire un caractère en morse
 function translateLatinCharacter(dictionnary, character) {
+   //character.toUpperCase(); fait dans l'étape 3 
    console.log(dictionnary[character]);
    return (dictionnary[character]);
 }
